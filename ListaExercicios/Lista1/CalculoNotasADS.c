@@ -14,7 +14,7 @@ main()
     printf("Digite nota do pim: ");
     scanf("%lf", &pim);
     mediaSemestral = (nota1 * 0.4 + nota2 * 0.4 + pim * 0.2 );
-    if(mediaSemestral >= 7)
+    if(!mediaSemestral >= 7)
     {
         printf("Aluno Aprovado!Sua media semestral - %0.2lf", mediaSemestral);
         system("PAUSE");
